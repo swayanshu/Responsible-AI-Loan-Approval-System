@@ -70,5 +70,25 @@ The project demonstrates that fairness-aware optimization can significantly redu
 * Produced a comprehensive Responsible AI evaluation framework suitable for educational, research, and portfolio applications.
 
 ## Future Work
+## Future Work
 
-Future extensions include incorporating multiple protected attributes (e.g., race and age), evaluating additional fairness mitigation techniques, benchmarking multiple machine learning models, integrating causal fairness analysis, and deploying the pipeline as an interactive web application for real-time fairness monitoring.
+Although this project demonstrates a complete Responsible AI pipeline, several areas can be extended for future research and real-world deployment.
+
+* Multi-Attribute Fairness Analysis: Extend fairness evaluation beyond a single protected attribute by analyzing intersectional groups such as combinations of gender, age, education, and socioeconomic factors.
+
+* Real-World Dataset Validation: Evaluate the framework using real-world financial datasets while applying appropriate privacy-preserving techniques and ethical data governance practices.
+
+* Advanced Fairness Techniques: Compare multiple bias mitigation approaches, including pre-processing methods, in-processing optimization algorithms, and post-processing threshold adjustments.
+
+* Causal Fairness Analysis: Incorporate causal machine learning techniques to better understand the underlying causes of bias and distinguish between correlation and causation in decision-making systems.
+
+* Model Benchmarking: Compare multiple machine learning and deep learning architectures, including Gradient Boosting, Neural Networks, and Large Language Model-based approaches, while evaluating fairness-performance trade-offs.
+
+* Continuous Fairness Monitoring: Develop a production-ready monitoring framework to track model drift, fairness degradation, and changes in data distribution after deployment.
+
+* Privacy-Preserving AI: Explore techniques such as federated learning and differential privacy to enable secure AI development while protecting sensitive financial information.
+
+* Interactive Responsible AI Dashboard: Build an interactive dashboard for stakeholders to monitor model predictions, fairness metrics, feature importance, and explainability results in real time.
+
+These extensions would help transform this research prototype into a scalable, transparent, and trustworthy AI decision-support system suitable for real-world applications in financial services and other high-impact domains.
+
