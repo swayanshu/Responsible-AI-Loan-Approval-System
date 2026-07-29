@@ -1,0 +1,13 @@
+Responsible AI Loan Approval System – End-to-End Project
+
+I built an end-to-end **Responsible AI Loan Approval System** in Python using Google Colab to demonstrate how machine learning models can be developed, evaluated, and improved with fairness and transparency in mind. Rather than relying on publicly available datasets, I created a synthetic dataset of 5,000 loan applicants containing realistic features such as age, gender, education, employment experience, annual income, credit score, loan amount, existing loans, and marital status.
+
+To simulate a real-world ethical challenge, I intentionally introduced bias into the loan approval process by reducing the approval probability for one protected group. This allowed me to replicate how historical or societal biases can become embedded in AI systems and provided a controlled environment for demonstrating Responsible AI techniques.
+
+After performing exploratory data analysis (EDA) through multiple visualizations, I preprocessed the data and trained a baseline **Random Forest** classifier. The model was evaluated using standard machine learning metrics, including Accuracy, Precision, Recall, F1-score, ROC-AUC, Confusion Matrix, and Feature Importance. While the model achieved strong predictive performance, I showed that high accuracy alone does not guarantee fairness.
+
+To evaluate fairness, I used **Fairlearn**, Microsoft's Responsible AI toolkit, and measured metrics such as **Demographic Parity Difference**, **Demographic Parity Ratio**, **Equalized Odds Difference**, **Selection Rate**, and **Group-wise Accuracy**. I then applied the **Exponentiated Gradient** bias mitigation algorithm to reduce unfair outcomes while maintaining competitive predictive performance.
+
+To improve model transparency and interpretability, I integrated **SHAP (SHapley Additive Explanations)** to identify the most influential features affecting loan approval decisions and to explain individual predictions. Finally, I developed a Responsible AI dashboard and generated a comprehensive report comparing the baseline and fairness-aware models, highlighting the trade-offs between predictive accuracy and fairness.
+
+This project demonstrates my ability to build a complete Responsible AI pipeline, encompassing synthetic data generation, machine learning, fairness evaluation, bias mitigation, explainable AI, visualization, and transparent reporting. It reflects best practices for developing trustworthy AI systems suitable for high-impact applications such as banking, healthcare, hiring, insurance, and education.
