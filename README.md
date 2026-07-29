@@ -23,7 +23,7 @@ The synthetic dataset includes features such as age, gender, education, employme
 A baseline **Random Forest** classifier was trained and evaluated using standard machine learning metrics, including Accuracy, Precision, Recall, F1-score, ROC-AUC, Confusion Matrix, and Feature Importance. The project then assessed algorithmic fairness using **Fairlearn**, measuring Demographic Parity Difference, Demographic Parity Ratio, Equalized Odds Difference, Selection Rate, and Group-wise Accuracy.
 
 To reduce unfair outcomes, the **Exponentiated Gradient** fairness mitigation algorithm was applied, enabling a comparison between predictive performance and fairness-aware optimization.
-
+![Responsible AI Pipeline](RAI.jpg)
 ## Explainable AI
 
 Model interpretability was enhanced using **SHAP (SHapley Additive Explanations)** to provide both global and local explanations of model predictions. SHAP visualizations were used to identify influential features and verify that model decisions aligned with meaningful financial attributes.
